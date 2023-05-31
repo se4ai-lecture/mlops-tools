@@ -1,10 +1,10 @@
-md5: 056c54036ba915dd495a43ce7c881a73
+md5: 2afacf866afdad6167b8fdf696841ab2
 frozen: true
 deps:
 - path: data/winequality-red.csv
   repo:
-    url: https://github.com/xJREB/se4ai-lecture-dvc-artifacts
-    rev_lock: 0bcd9134dd4d2c3da1afa8111f1aa3d895877bce
+    url: ssh://git@github.com/se4ai-lecture/dvc-artifacts
+    rev_lock: 8c6c8c6de07f86eb38d93ea9b841cadd708ad2a8
 outs:
 - md5: 2daeecee174368f8a33b82c8cccae3a5
   size: 84199

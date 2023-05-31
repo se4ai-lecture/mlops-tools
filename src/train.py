@@ -43,6 +43,9 @@ test_x = test.drop(["quality"], axis=1)
 train_y = train[["quality"]]
 test_y = test[["quality"]]
 
+# alternative to the explicit logging at the end:
+# mlflow.autolog()
+
 # start training loop to test 10 different hyperparameter settings
 for x in range(10):
 
