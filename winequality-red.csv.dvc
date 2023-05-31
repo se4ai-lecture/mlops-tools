@@ -3,7 +3,7 @@ frozen: true
 deps:
 - path: data/winequality-red.csv
   repo:
-    url: ssh://git@github.com/se4ai-lecture/dvc-artifacts
+    url: https://github.com/se4ai-lecture/dvc-artifacts
     rev_lock: 8c6c8c6de07f86eb38d93ea9b841cadd708ad2a8
 outs:
 - md5: 2daeecee174368f8a33b82c8cccae3a5
