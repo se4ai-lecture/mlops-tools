@@ -42,10 +42,10 @@ Necessary steps to arrive at the solution:
 dvc init
 
 # list all DVC artifacts in the data folder of the named repo (3 in total)
-dvc list ssh://git@github.com/se4ai-lecture/dvc-artifacts data
+dvc list https://github.com/se4ai-lecture/dvc-artifacts data
 
 # import the correct data set from the repo (if you clone this repo, `dvc pull` is enough)
-dvc import ssh://git@github.com/se4ai-lecture/dvc-artifacts data/winequality-red.csv
+dvc import https://github.com/se4ai-lecture/dvc-artifacts data/winequality-red.csv
 
 # copy and run the extended training script
 python src/train.py
