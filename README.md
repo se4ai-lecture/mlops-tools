@@ -37,6 +37,7 @@ Remember that the CI runner will also need to retrieve the dataset via DVC.
 ## Solution
 
 Necessary steps to arrive at the solution:
+
 ```bash
 # initialize DVC in the git repo
 dvc init
